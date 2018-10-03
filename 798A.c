@@ -6,7 +6,7 @@ int main()
 	char str[15];
 	scanf("%s", str);
 	b=strlen(str);
-	if(b%2 != 0)
+	if(b%2 != 0)       //this is nothing
 		{for(i=0;i<b/2+1;i++)
 	{
 		if(str[i]!=str[b-i-1])

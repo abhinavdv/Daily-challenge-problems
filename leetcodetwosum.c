@@ -1,5 +1,5 @@
 /**
- * Note: The returned array must be malloced, assume caller calls free().
+ * Note: The returned array must be malloced, assume caller calls free(). it works
  */
 int* twoSum(int* nums, int numsSize, int target) {
     int i,j;

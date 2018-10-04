@@ -4,7 +4,7 @@
 int* twoSum(int* nums, int numsSize, int target) {
     int i,j;
     int* arr;
-    arr = (int*)malloc(2*sizeof(int));
+    arr = (int*)malloc(2*sizeof(int)); //asasghdgdyaudh
     arr[0] = 0;
     arr[1] = 0; 
     for(i=0;i<numsSize;i++)

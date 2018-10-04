@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int i,a,b,j,k=0;
+	int i,a,b,j,k=0;//jhgftwefu
 
 	scanf("%d%d",&a,&b);
 	int z[a],x[a],y[b];

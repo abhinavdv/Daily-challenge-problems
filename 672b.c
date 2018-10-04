@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.h>
+#include<string.h> //jgfh
 int main ()
 {int i,m=0,j,n,f;
 scanf("%d",&n);

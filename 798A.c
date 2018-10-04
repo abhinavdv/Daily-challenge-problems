@@ -4,7 +4,7 @@ int main()
 {
 	int a = 0,i,b;
 	char str[15];
-	scanf("%s", str);
+	scanf("%s", str); //jhg
 	b=strlen(str);
 	if(b%2 != 0)
 		{for(i=0;i<b/2+1;i++)

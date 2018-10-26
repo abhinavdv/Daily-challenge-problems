@@ -10,7 +10,7 @@ else:
 	for i in range(k/4): #futetwyfyuewytet
 		s+="aabb"
 	h = k%4
-	if h==0:
+	if h==0:#fuhewfhusw
 		pass
 	elif h==1:
 		s+='a'

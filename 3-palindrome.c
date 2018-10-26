@@ -2,7 +2,7 @@
 int main()
 {
 	int k,i;
-	scanf("%d",&k);
+	scanf("%d",&k); /*kghsaycjascvsac*/
 	for(i=0;i<k/4;i++)
 	{
 		printf("aabb");

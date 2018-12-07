@@ -19,7 +19,7 @@ if(f==m)
 {k[strlen(k)]=s[i];}
 
 }
-
+//print result. (24pull requests)
 printf("%d",m);
 
 

@@ -2,12 +2,13 @@
 int main()
 {
 	int i,a,b,j,k=0;
-
-	scanf("%d%d",&a,&b);//kdfg
+	cin >> a >> b;
+	//scanf("%d%d",&a,&b);//kdfg
 	int z[a],x[a],y[b];
 	for(i=0;i<a;i++)
 	{
-		scanf("%d%d",&z[i],&x[i]);
+		cin >> z[i] >> x[i];
+		//scanf("%d%d",&z[i],&x[i]);
 	}
 	
 

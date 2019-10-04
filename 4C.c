@@ -8,5 +8,6 @@ int main()
 	{
 		scanf("%s",&arr[i][32]);
 	}
+ 	printf("Yentra yidi sogam chesi vadlisav :) ");
 	return 0;
 }

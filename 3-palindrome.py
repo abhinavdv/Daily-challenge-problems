@@ -7,7 +7,7 @@ elif k==2:
 elif k==3:
 	print('bba')
 else:
-	for i in range(k/4): #futetwyfyuewytet
+	for i in range(k/4):
 		s+="aabb"
 	h = k%4
 	if h==0:

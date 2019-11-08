@@ -2,12 +2,13 @@
 int main()
 {
 	int i,a,b,j,k=0;
-
-	scanf("%d%d",&a,&b);
+	cin >> a >> b; 
+	//scanf("%d%d",&a,&b);
 	int z[a],x[a],y[b];
 	for(i=0;i<a;i++)
 	{
-		scanf("%d%d",&z[i],&x[i]);
+		cinn >> z[i] >> x[i];
+		//scanf("%d%d",&z[i],&x[i]);
 	}
 	for(i=0;i<b;i++)
 	{
@@ -27,11 +28,13 @@ int main()
 		if(y[i]!=0)
 			k++;
 	}	
-	printf("%d\n",k);
+	cout << k;
+	//printf("%d\n",k);
 	for(i=0;i<b;i++)
 	{
 		if(y[i]!=0)
-			printf("%d ",y[i]);
+			cout << y[i];
+			//printf("%d ",y[i]);
 	}	
 
 }

@@ -7,41 +7,33 @@ int main()
 	scanf("%s", str);
 	b=strlen(str);
 	if(b%2 != 0)
-		{for(i=0;i<b/2+1;i++)
 	{
-		if(str[i]!=str[b-i-1])
+		for(i=0;i<b/2+1;i++)
 		{
-			a++;
+			if(str[i]!=str[b-i-1])
+			{
+				a++;
+			}
 		}
-	
-
 	}
-		}
-	else{
+	else
+	{
 		for(i=0;i<b/2;i++)
-	{
-		if(str[i]!=str[b-i-1])
 		{
-			a++;
+			if(str[i]!=str[b-i-1])
+			{
+				a++;
+			}
 		}
-	
-
-
-
 	}
-}
-if(b%2 != 0 && a==0)
+	if(b%2 != 0 && a==0)
 	{
 		a++;
 	}
 
-	if(a==1 )
-	{
+	if(a==1)
 		printf("YES");
-	}
 	else
-	{
 		printf("NO" );
-	}
 	return 0;
 }
